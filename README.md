@@ -1,5 +1,7 @@
 # software-architecture-patterns
 
+What is Execution orchestrator pattern software architecture Pattern. provide High level descriptions, Use cases and problems it solves, Core principles, Implementation techniques, Implementation considerations and Observations, best practices and code examples
+
 # Lecture 1: Cloud Computing SA Patterns
 1. Why do we need Software Architecture patterns
   1. Solution to common problem and non-functional requirements 
@@ -26,5 +28,40 @@
        1. Cost awareness
        2. Built for failure
        3. Building reliable system using unreliable components
-       4. 
+
+# Lecture 2: Scalability patterns
+- This pattern allows to architect and deploy a highly scalable system that enables handle billions of requests/day and process petabytes of data in cost effective way.
+- **What is load balancing pattern and how it works**
+	- Dispatching every request from a sender to only one worker
+- Technique to apply load balancing in Cloud environment
+ - Problem statement
+ 	- How millions of users access the same resource at the same time?
+- Use cases
+- Implementation technique
+	- Cloud load balancing service
+ 	- Message broker/distributed message queue - the main purpose isn't load balancing
+  		- One way and internal services
+- Implementation considerations
+	- Which algorithm to use for routing requests to downstream. Stateless/Stateful, duration of the connection
+ 		- Round-Robin
+   		- Stick session / Session affinity
+     	- Least connection
+	- Combine Auto scaling and load balancing
+- Pipes and Filters patterns
+	- 
+- Scatter Gather Pattern
+	- High level descriptions
+ 	- Use cases and solved problems
+  	- Core principles
+  	- Implementation techniques
+  	- Implementation considerations
+  	- Observations
+  	- Best practices
+  	- Code examples
+- Execution orchestrator pattern
+	- What is Execution orchestrator pattern software architecture Pattern. provide High level descriptions, Use cases and problems it solves, Core principles, Implementation techniques, Implementation considerations and Observations, best practices and code examples
+
+
+
+
     
